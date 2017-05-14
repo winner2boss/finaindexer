@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BBBC9C0A-38D2-4EE7-BD0E-1C381214A0A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Controle_Tranche</RootNamespace>
+    <AssemblyName>Controle_Tranche</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Controle_Tranche.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadDock, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Office2007Black, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Dark, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.VisualStudio2012Light, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Authentifcation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authentifcation.Designer.cs">
+      <DependentUpon>Authentifcation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="choix_unite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="choix_unite.Designer.cs">
+      <DependentUpon>choix_unite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controle_Deplace.cs" />
+    <Compile Include="Elements.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GEDDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GEDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GEDDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GEDDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="recherche.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recherche.Designer.cs">
+      <DependentUpon>recherche.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\CWS.Authentication\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\CWS.ContentService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\CWS.DocumentManagement\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service_data.cs" />
+    <Compile Include="Service_GED.cs" />
+    <Compile Include="Traitement_Controle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Traitement_Controle.Designer.cs">
+      <DependentUpon>Traitement_Controle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Authentifcation.resx">
+      <DependentUpon>Authentifcation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="choix_unite.resx">
+      <DependentUpon>choix_unite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="recherche.resx">
+      <DependentUpon>recherche.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Traitement_Controle.resx">
+      <DependentUpon>Traitement_Controle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GEDDataSet.xsc">
+      <DependentUpon>GEDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GEDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GEDDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GEDDataSet.xss">
+      <DependentUpon>GEDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="GEDDataSet1.xsc">
+      <DependentUpon>GEDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="GEDDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>GEDDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GEDDataSet1.xss">
+      <DependentUpon>GEDDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\CWS.Authentication\Authentication.wsdl" />
+    <None Include="Service References\CWS.Authentication\Authentication.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CWS.Authentication\Authentication1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CWS.Authentication\Controle_Tranche.CWS.Authentication.OTAuthentication.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.ContentService\ContentService.wsdl" />
+    <None Include="Service References\CWS.ContentService\ContentService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CWS.ContentService\ContentService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CWS.ContentService\ContentService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CWS.ContentService\Controle_Tranche.CWS.ContentService.OTAuthentication.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.Attachment.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.AttributeGroup.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.AttributeGroupDefinition.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.CategoryItemsUpgradeInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.ChunkedOperationContext.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.CompoundDocRelease.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.MetadataLanguage.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.MultilingualMetadata.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.Node.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.NodeAuditRecord.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.NodePageResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.NodeRights.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.NodeRightUpdateInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.OTAuthentication.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.PagedNodeAuditData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.ReportResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\Controle_Tranche.CWS.DocumentManagement.Version.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\DocumentManagement.wsdl" />
+    <None Include="Service References\CWS.DocumentManagement\DocumentManagement.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\DocumentManagement1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\CWS.DocumentManagement\DocumentManagement2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\CWS.Authentication\" />
+    <WCFMetadataStorage Include="Service References\CWS.ContentService\" />
+    <WCFMetadataStorage Include="Service References\CWS.DocumentManagement\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.Authentication\Authentication.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.Authentication\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.Authentication\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.Authentication\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.DocumentManagement\DocumentManagement.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.DocumentManagement\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.DocumentManagement\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.DocumentManagement\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.ContentService\ContentService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.ContentService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.ContentService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CWS.ContentService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Documents-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box-with-folders.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apptext.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_out.png" />
+    <None Include="Resources\zoom_in.png" />
+    <None Include="Resources\arrow_rotate_anticlockwise.png" />
+    <None Include="Resources\arrow_rotate_clockwise.png" />
+    <None Include="Resources\arrow_inout.png" />
+    <None Include="Resources\document-icon-16x16.png" />
+    <None Include="Resources\document_edit.png" />
+    <None Include="Resources\document.png" />
+    <None Include="Resources\document_delete.png" />
+    <None Include="Resources\document_ok.png" />
+    <None Include="Resources\folder_delete.png" />
+    <None Include="Resources\folder_edit.png" />
+    <None Include="Resources\folder_ok.png" />
+    <None Include="Resources\folder.png" />
+    <None Include="Resources\folder_closed.png" />
+    <None Include="Resources\folder_preferences.png" />
+    <None Include="Resources\folder_lock.png" />
+    <None Include="Resources\folder_refresh.png" />
+    <None Include="Resources\document_corriger.png" />
+    <Content Include="Resources\Refresh.png" />
+    <Content Include="Resources\tranche.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GED_image\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

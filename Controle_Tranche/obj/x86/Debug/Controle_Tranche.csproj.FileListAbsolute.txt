@@ -1,0 +1,48 @@
+D:\Projets\Finatech\Projet ANFCC\Dev\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.exe.config
+D:\Projets\Finatech\Projet ANFCC\Dev\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.exe
+D:\Projets\Finatech\Projet ANFCC\Dev\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.pdb
+D:\Projets\Finatech\Projet ANFCC\Dev\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Authentifcation.resources
+D:\Projets\Finatech\Projet ANFCC\Dev\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.choix_unite.resources
+D:\Projets\Finatech\Projet ANFCC\Dev\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Form1.resources
+D:\Projets\Finatech\Projet ANFCC\Dev\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Properties.Resources.resources
+D:\Projets\Finatech\Projet ANFCC\Dev\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Traitement_Controle.resources
+D:\Projets\Finatech\Projet ANFCC\Dev\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.csproj.GenerateResource.Cache
+D:\Projets\Finatech\Projet ANFCC\Dev\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.exe
+D:\Projets\Finatech\Projet ANFCC\Dev\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.pdb
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.exe.config
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.exe
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.pdb
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.exe
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.pdb
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.csprojResolveAssemblyReference.cache
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Authentifcation.resources
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.choix_unite.resources
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Form1.resources
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Properties.Resources.resources
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Traitement_Controle.resources
+D:\Projets\Finatech\Projet ANFCC\Dev\Code Source\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.csproj.GenerateResource.Cache
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.exe.config
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.exe
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.pdb
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Authentification.resources
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.choix_unite.resources
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Form1.resources
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Properties.Resources.resources
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.recherche.resources
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Traitement_Controle.resources
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.csproj.GenerateResource.Cache
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.exe
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.pdb
+C:\Users\Administrateur\Desktop\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.csprojResolveAssemblyReference.cache
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.exe.config
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.exe
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\bin\Debug\Controle_Tranche.pdb
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Authentification.resources
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.choix_unite.resources
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Form1.resources
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Properties.Resources.resources
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.recherche.resources
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.Traitement_Controle.resources
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.csproj.GenerateResource.Cache
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.exe
+D:\Bureau\Controle_Tranche_V_final\Controle_Tranche\Controle_Tranche\obj\x86\Debug\Controle_Tranche.pdb

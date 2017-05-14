@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5f910dc5-a930-4499-9a60-e94c0f49e0ba" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/CWS/Authentication.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Authentication.xsd" MetadataType="Schema" ID="7fb4374f-3cdd-45f8-bbb7-055fd52dc13e" SourceId="1" SourceUrl="http://badr-pc/CWS/Authentication.svc?xsd=xsd0" />
+    <MetadataFile FileName="Authentication.disco" MetadataType="Disco" ID="b7538e18-b7f3-440b-9564-ddd025a67d8c" SourceId="1" SourceUrl="http://badr-pc/CWS/Authentication.svc?disco" />
+    <MetadataFile FileName="Authentication1.xsd" MetadataType="Schema" ID="3d85e54b-868f-4fa4-827b-6694625a2de3" SourceId="1" SourceUrl="http://badr-pc/CWS/Authentication.svc?xsd=xsd1" />
+    <MetadataFile FileName="Authentication.wsdl" MetadataType="Wsdl" ID="defae3a6-8ffb-4a58-9dbd-c986845685b3" SourceId="1" SourceUrl="http://badr-pc/CWS/Authentication.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
